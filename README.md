@@ -27,3 +27,12 @@ Morf controlla da solo se c'è una versione nuova: quando c'è, clicca l'icona e
 ## Qualcosa non va?
 
 Clicca l'icona di Morf → **Copia diagnostica** e incolla il testo nel messaggio a Matteo. Non contiene nomi di file né cartelle.
+
+## Componenti di terze parti
+
+Per leggere le foto HEIC e AVIF, Morf include come librerie separate (file `.dll` nella cartella di installazione):
+- [libheif](https://github.com/strukturag/libheif) — LGPL-3.0
+- [libde265](https://github.com/strukturag/libde265) — LGPL-3.0
+- [dav1d](https://code.videolan.org/videolan/dav1d) — BSD-2-Clause
+
+Il codice sorgente di queste librerie è disponibile ai link indicati; si possono sostituire con versioni compatibili.
